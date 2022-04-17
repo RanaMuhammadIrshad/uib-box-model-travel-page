@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #eee;
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+}
+
+main {
+  width: 1205px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 600px;
+  height: 600px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20%;
+}
+
+.section1 {
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+nav ul {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(172, 133, 133);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 27px;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.section2 {
+  background-image: url("../images/beach.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.copyrights {
+  text-align: right;
+  padding: 10px;
+  font-size: small;
+  background-color: antiquewhite;
+}
